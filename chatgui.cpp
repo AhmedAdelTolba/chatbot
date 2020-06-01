@@ -144,14 +144,6 @@ ChatBotPanelDialog::ChatBotPanelDialog(wxWindow *parent, wxWindowID id)
 
 ChatBotPanelDialog::~ChatBotPanelDialog()
 {
-    //// STUDENT CODE
-    ///
-    if(nullptr != _dialogSizer)
-    {
-        delete _dialogSizer;
-    }
-    ////
-    //// EOF STUDENT CODE
 }
 
 void ChatBotPanelDialog::AddDialogItem(wxString text, bool isFromUser)
